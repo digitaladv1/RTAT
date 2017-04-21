@@ -1,0 +1,28 @@
+<div class="containter center" style="width:600px;margin-left:10%" >
+
+
+<div class="row text-center">
+
+<img src="DALogo.png" width="150px"> <h1>Achievment Points</h1>
+</div>
+
+
+<!-- Student1-->
+<div class="row">
+<ul style="list-style-type:none">
+<li> <h3><%=@Students[0] %> <span style="color:#00E400">Level <%= @Level[0] %></span> </h3>
+
+<div class="progress">
+  <div class="progress-bar progress-bar-success " role="progressbar" style="width:<%=@Exp[0]%>%" >
+  </div>
+  <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" style="width:<%=@Stars[0]*10 %>%">
+  </div>
+</div>
+</li>
+<img src="<%=@Star1[0]%>" width=50px> <img src="<%=@Star2[0]%>"width=50px> <img src="<%=@Star3[0]%>"width=50px>
+</ul>
+</div>
+
+
+
+</div>

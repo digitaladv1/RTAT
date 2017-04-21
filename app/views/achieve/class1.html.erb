@@ -1,0 +1,28 @@
+<div class="containter center" style="width:600px;margin-left:10%" >
+
+
+<div class="row text-center">
+
+<img src="DALogo.png" width="150px"> <h1>Digital Adventure Points</h1>
+</div>
+
+<div class="row">
+
+<ul style="list-style-type:none">
+
+<li> <h2>Emmett</h2>
+<h3 style="color:#00E400">Level <%= @EmmettLevel %></h3>
+<div class="progress">
+  <div class="progress-bar progress-bar-success " role="progressbar" style="width:<%=@EmmettExp%>%" >
+  </div>
+  <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" style="width:<%=@EmmettStars*10 %>%">
+  </div>
+</div>
+</li>
+<img src="<%=@Star1%>"> <img src="<%=@Star2%>"> <img src="<%=@Star3%>">
+
+</ul>
+
+</div>
+
+</div>
